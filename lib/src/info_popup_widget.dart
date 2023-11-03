@@ -209,7 +209,7 @@ class _InfoPopupWidgetState extends State<InfoPopupWidget> {
       return;
     }
 
-    _infoPopupController = _infoPopupController ??= InfoPopupController(
+    _infoPopupController = InfoPopupController(
       context: context,
       targetRenderBox: renderBox,
       layerLink: _layerLink,
